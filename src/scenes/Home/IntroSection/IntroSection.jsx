@@ -15,36 +15,33 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME <span className={s.purple}> INTRODUCE </span>{' '}
-            MYSELF
+            PERMITEME<span className={s.purple}> PRESENTARME </span>{' '}
+            
           </h1>
 
           <div className={s.description}>
             <p>
-              I'm a React Native Developer with two years of
-              experience <br />
-              creating mobile apps for the iOS, Android, and Web
-              platforms.
+              Soy  Ingeniero de sistemas - Desarrollador Front End <br />
+              Con Experiencia en Desarrollo de paginas web, Desarrollo Mobil Android
             </p>
 
             <p>
-              My skills include proficiency in{' '}
+              Mis Habilidades Incluyen {' '}
               <i>
                 <b className={s.purple}>
-                  TypeScript, React, React Native,
+                  Html, React, JavaScript,
                 </b>
               </i>
               <br />
-              and other relevant technologies. I have experience in
-              integrating various <br />
-              third-party libraries, API integration, push
-              notifications and analytics.
+               Desarrollo de aplicasiones con realidad aumentada
+               con Unity, <br />
+               Desarrollo de aplicasiones mobiles con xamarin form
             </p>
 
             <p>
-              My field of Interest's are building new
+              My campo de interes es la construccion De
               <i>
-                <b className={s.purple}> Technologies and Products</b>
+                <b className={s.purple}>  Nuevas tecnologias y productos</b>
               </i>
             </p>
           </div>
@@ -56,10 +53,10 @@ const IntroSection = () => {
       </div>
 
       <div className={s.introSocial}>
-        <h1>FIND ME ON</h1>
+        <h1>Redes Sociales</h1>
         <p>
-          Feel free to <span className={s.purple}>connect </span>with
-          me
+          Ponte en  <span className={s.purple}> contacto</span> con
+          Migo
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>

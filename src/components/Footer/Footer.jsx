@@ -14,34 +14,14 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h1>Made with ❤️ by Snaichuk Volodymyr</h1>
+          <h1>Programado ✅ Por Adrian Pico- Pickmaker</h1>
         </div>
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
             <li>
               <a
-                href="https://github.com/vsnaichuk"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="github"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/Snaychuk"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="facebook"
-              >
-                <FaFacebookSquare />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://t.me/snaichuk_v"
+                href="https://wa.me/573004307905?text=Hola%20Adrian,%20Acabo%20de%20ver%20tu%20Portafolio%20me%20encanto%20mucho%20"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="TelegramPlane"
@@ -51,7 +31,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+                href="https://www.linkedin.com/in/adrian-gabriel-pico-martinez-68a25b210/?originalSubdomain=co"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="linkedin"

@@ -8,19 +8,19 @@ const MainSection = () => {
     <section className={s.content}>
       <div className={s.header}>
         <h2 style={{ paddingBottom: 15 }} className={s.title}>
-          Hi There! <span className={s.wave}>👋🏻</span>
+          Hola! !Bienvenido <span className={s.wave}>👋🏻</span>
         </h2>
 
         <h1 className={s.mainTitle}>
-          I'M
-          <strong className={s.mainName}> SNAICHUK VOLODYMYR</strong>
+          Soy
+          <strong className={s.mainName}> Adrian Pico Martinez</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>
           <Typewriter
             strings={[
-              'Continuously Learning',
-              'React Native Developer',
+              'Explora mi portafolio...',
+              'Ingeniero De Sistemas',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

@@ -8,10 +8,11 @@ const Projects = () => {
     <BaseLayout>
       <div className={s.content}>
         <h1 className={s.title}>
-          My Recent <strong className={s.purple}>Works</strong>
+          Mis Proyectos <strong className={s.purple}>Aqui</strong>
         </h1>
         <p className={s.subtitle}>
-          Here are a few projects I've worked on recently.
+          En esta Secion podras ver mis proyecto realizados 
+          independientemene 
         </p>
 
         <ul className={s.projects}>

@@ -10,8 +10,8 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+const resumeLink = 'https://raw.githubusercontent.com/AdrianTX23/Barberia_V1/83edf0791a657c65b2afaa02c4b691fa76c72982/HV%20Adrian_pico.pdf';
+
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -39,7 +39,7 @@ const Resume = () => {
       <div className={s.content}>
         <div className={s.header}>
           <h1 className={s.title}>
-            My <br /> Resume
+            My <br /> Hoja de vida
           </h1>
 
           <div className={s.filesImg}>
@@ -54,7 +54,7 @@ const Resume = () => {
           target="_blank"
         >
           <DownloadIcon fill="#fff" />
-          <span className={s.downloadText}> download resume</span>
+          <span className={s.downloadText}> Descargar Documento</span>
           <span className={s.filename}>.pdf</span>
         </Button>
 

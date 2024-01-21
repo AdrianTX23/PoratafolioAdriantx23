@@ -12,7 +12,7 @@ const About = () => {
         <div className={s.about}>
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
-              Know Who <b className={s.purple}>I'M</b>
+              ¿Quien  <b className={s.purple}>Soy?</b>
             </h1>
             <AboutTextCard />
           </div>
@@ -23,12 +23,12 @@ const About = () => {
         </div>
 
         <h2 className={s.skills}>
-          Professional <b className={s.purple}>Skills</b>
+          Habilidades <b className={s.purple}>Profesionales</b>
         </h2>
         <TechSkills />
 
         <h2 className={s.githubActivity}>
-          Days I <b className={s.purple}>Code</b>
+          Codigos por  <b className={s.purple}>Dia</b>
         </h2>
         <GithubActivity />
       </div>

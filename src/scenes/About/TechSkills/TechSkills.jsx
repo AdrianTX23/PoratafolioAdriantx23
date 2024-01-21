@@ -30,22 +30,7 @@ const TechSkills = () => {
         <DiReact />
       </li>
       <li className={s.techIcon}>
-        <DiMongodb />
-      </li>
-      <li className={s.techIcon}>
-        <DiSass />
-      </li>
-      <li className={s.techIcon}>
         <SiAmazonaws />
-      </li>
-      <li className={s.techIcon}>
-        <SiRedux />
-      </li>
-      <li className={s.techIcon}>
-        <SiSocketdotio />
-      </li>
-      <li className={s.techIcon}>
-        <DiGit />
       </li>
     </ul>
   );
